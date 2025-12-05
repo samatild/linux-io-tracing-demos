@@ -479,15 +479,7 @@ class UploadHandler(BaseHTTPRequestHandler):
         <div class="nav">
             <div class="logo">
                 <div class="logo-mark"></div>
-                I/O LAB<span>news</span>
-            </div>
-            <div class="nav-links">
-                <a href="/">Headlines</a>
-                <a href="#deep-dive">Deep Dives</a>
-            </div>
-            <div class="nav-pill">
-                <span class="pill-dot"></span>
-                Performance lab
+                I/O LAB1 <span>Performance challenge</span>
             </div>
         </div>
     </header>
@@ -566,10 +558,6 @@ class UploadHandler(BaseHTTPRequestHandler):
                         Your job is to connect what you see in the browser with what the
                         operating system is telling you.
                     </p>
-                    <div class="card-footer">
-                        <span class="chip">Investigation</span>
-                        <span>5 min read</span>
-                    </div>
                 </article>
                 <article class="card">
                     <div class="card-tag">Tutorial</div>
@@ -579,10 +567,6 @@ class UploadHandler(BaseHTTPRequestHandler):
                         what this server is spending time on when you refresh the page. The
                         symptoms are in the browser; the answers live on the host.
                     </p>
-                    <div class="card-footer">
-                        <span class="chip">Observability</span>
-                        <span>8 min read</span>
-                    </div>
                 </article>
                 <article class="card">
                     <div class="card-tag">Playbook</div>
@@ -592,10 +576,6 @@ class UploadHandler(BaseHTTPRequestHandler):
                         interactive traffic. Think about how you would keep an environment like
                         this healthy in production when heavy maintenance tasks are running.
                     </p>
-                    <div class="card-footer">
-                        <span class="chip">Production tips</span>
-                        <span>6 min read</span>
-                    </div>
                 </article>
             </section>
         </div>
